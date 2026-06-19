@@ -7,7 +7,7 @@ BASE_URL="${BASE_URL:-http://localhost:8080}"
 
 echo "=== Waiting for app at $BASE_URL ==="
 for i in $(seq 1 36); do
-    if curl -sf --max-time 5 "$BASE_URL/actuator/health" > /dev/null 2>&1; then
+    if curl -sf --max-time 5 "$BASE_URL/products" > /dev/null 2>&1; then
         echo "App is ready"
         break
     fi

@@ -13,13 +13,9 @@ export const options = {
 };
 
 export default function () {
-  // Spring Boot Actuator health check — app is up and DB connected
-  const health = http.get(`${BASE_URL}/actuator/health`);
-  check(health, {
-    'health 200': (r) => r.status === 200,
-    'health UP': (r) => {
-      try { return JSON.parse(r.body).status === 'UP'; } catch { return false; }
-    },
+  const res = http.get(`${BASE_URL}/products`);
+  check(res, {
+    'products 200': (r) => r.status === 200,
   });
 
   sleep(1);

@@ -16,9 +16,9 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get(`${BASE_URL}/actuator/health`);
+  const res = http.get(`${BASE_URL}/products`);
   check(res, {
-    'status 200': (r) => r.status === 200,
+    'products 200': (r) => r.status === 200,
   });
   sleep(1);
 }
