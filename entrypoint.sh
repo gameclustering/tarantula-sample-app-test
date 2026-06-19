@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+cd "$(dirname "$0")"
+
 BASE_URL="${BASE_URL:-http://localhost:8080}"
 
 echo "=== Smoke Tests (BASE_URL=$BASE_URL) ==="
