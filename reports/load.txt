@@ -1,0 +1,14 @@
+=== Load Test — dev-ready ===
+Date : 2026-06-20T06:25:43.982Z
+URL  : http://35.209.3.109:8080
+
+HTTP
+  Requests : 833
+  Failed   : 0.00%
+  Avg      : 5.2 ms
+  p95      : 8.0 ms
+  p99      : n/a
+
+Checks
+  Passed   : 833
+  Failed   : 0
