@@ -1,33 +1,33 @@
 ======================================
  Test Report: dev-ready
- Date: Thu Jun 25 19:13:57 UTC 2026
- Base URL: http://35.209.252.136:8080
+ Date: Thu Jun 25 19:23:32 UTC 2026
+ Base URL: http://35.208.178.199:8080
 ======================================
 
 === Smoke Test — dev-ready ===
-Date : 2026-06-25T19:12:12.040Z
-URL  : http://35.209.252.136:8080
+Date : 2026-06-25T19:21:46.230Z
+URL  : http://35.208.178.199:8080
 
 HTTP
-  Requests : 95
+  Requests : 92
   Failed   : 0.00%
-  Avg      : 19.4 ms
-  p95      : 19.6 ms
+  Avg      : 27.3 ms
+  p95      : 24.9 ms
   p99      : n/a
 
 Checks
-  Passed   : 185
+  Passed   : 179
   Failed   : 0
 
 === Load Test — dev-ready ===
-Date : 2026-06-25T19:13:57.956Z
-URL  : http://35.209.252.136:8080
+Date : 2026-06-25T19:23:32.310Z
+URL  : http://35.208.178.199:8080
 
 HTTP
   Requests : 833
   Failed   : 0.00%
-  Avg      : 6.5 ms
-  p95      : 11.5 ms
+  Avg      : 7.1 ms
+  p95      : 12.8 ms
   p99      : n/a
 
 Checks
