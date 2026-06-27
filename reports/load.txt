@@ -1,12 +1,12 @@
 === Load Test — dev-ready ===
-Date : 2026-06-25T19:23:32.310Z
-URL  : http://35.208.178.199:8080
+Date : 2026-06-27T05:43:19.615Z
+URL  : http://35.206.107.166:8080
 
 HTTP
   Requests : 833
   Failed   : 0.00%
-  Avg      : 7.1 ms
-  p95      : 12.8 ms
+  Avg      : 5.2 ms
+  p95      : 9.1 ms
   p99      : n/a
 
 Checks

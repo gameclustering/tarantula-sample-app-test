@@ -1,14 +1,14 @@
 === Smoke Test — dev-ready ===
-Date : 2026-06-25T19:21:46.230Z
-URL  : http://35.208.178.199:8080
+Date : 2026-06-27T05:41:33.908Z
+URL  : http://35.206.107.166:8080
 
 HTTP
-  Requests : 92
+  Requests : 95
   Failed   : 0.00%
-  Avg      : 27.3 ms
+  Avg      : 23.5 ms
   p95      : 24.9 ms
   p99      : n/a
 
 Checks
-  Passed   : 179
+  Passed   : 185
   Failed   : 0
