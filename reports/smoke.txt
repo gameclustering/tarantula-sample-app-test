@@ -1,12 +1,12 @@
-=== Smoke Test — dev-ready ===
-Date : 2026-06-27T22:37:39.356Z
-URL  : http://35.208.122.166:8080
+=== Smoke Test — gcp-dev-ready ===
+Date : 2026-06-30T06:21:07.723Z
+URL  : http://35.206.68.41:8080
 
 HTTP
   Requests : 95
   Failed   : 0.00%
-  Avg      : 26.4 ms
-  p95      : 20.1 ms
+  Avg      : 22.8 ms
+  p95      : 18.6 ms
   p99      : n/a
 
 Checks
