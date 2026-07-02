@@ -1,18 +1,18 @@
 ======================================
  Test Report: gcp-dev-ready
- Date: Tue Jun 30 06:22:53 UTC 2026
- Base URL: http://35.206.68.41:8080
+ Date: Thu Jul  2 05:49:11 UTC 2026
+ Base URL: http://35.208.55.81:8080
 ======================================
 
 === Smoke Test — gcp-dev-ready ===
-Date : 2026-06-30T06:21:07.723Z
-URL  : http://35.206.68.41:8080
+Date : 2026-07-02T05:47:25.863Z
+URL  : http://35.208.55.81:8080
 
 HTTP
   Requests : 95
   Failed   : 0.00%
-  Avg      : 22.8 ms
-  p95      : 18.6 ms
+  Avg      : 21.8 ms
+  p95      : 19.1 ms
   p99      : n/a
 
 Checks
@@ -20,14 +20,14 @@ Checks
   Failed   : 0
 
 === Load Test — gcp-dev-ready ===
-Date : 2026-06-30T06:22:53.447Z
-URL  : http://35.206.68.41:8080
+Date : 2026-07-02T05:49:11.540Z
+URL  : http://35.208.55.81:8080
 
 HTTP
   Requests : 833
   Failed   : 0.00%
-  Avg      : 5.1 ms
-  p95      : 8.0 ms
+  Avg      : 4.8 ms
+  p95      : 7.4 ms
   p99      : n/a
 
 Checks
