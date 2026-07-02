@@ -1,12 +1,12 @@
 === Load Test — gcp-dev-ready ===
-Date : 2026-07-02T05:49:11.540Z
-URL  : http://35.208.55.81:8080
+Date : 2026-07-02T06:47:04.622Z
+URL  : http://35.209.94.84:8080
 
 HTTP
   Requests : 833
   Failed   : 0.00%
-  Avg      : 4.8 ms
-  p95      : 7.4 ms
+  Avg      : 6.2 ms
+  p95      : 10.3 ms
   p99      : n/a
 
 Checks
